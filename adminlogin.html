@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>adminlogin</title>
+    <style>
+        /* CSS code here */
+        * {
+            background-color: rgb(253, 253, 253);
+            font-family: 'Roboto', sans-serif;
+            /* Corrected the font family name to 'Roboto' */
+        }
+
+        .signup-box {
+            width: 360px;
+            height: 620px;
+            margin: auto;
+            background-color: rgb(255, 255, 255);
+            border-radius: 3px;
+        }
+
+        .login-box {
+            width: 360px;
+            height: 270px;
+            margin: auto;
+            border-radius: 3px;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        h4 {
+            text-align: center;
+        }
+
+        form {
+            width: 300px;
+            margin-left: 20px;
+        }
+
+        form label {
+            display: block;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        form input {
+            width: 100%;
+            padding: 7px;
+            border: 1px solid grey;
+            border-radius: 6px;
+            outline: none;
+            margin-top: 5px; /* Added margin for better spacing */
+        }
+
+        input[type="button"] {
+            width: 100%;
+            height: 35px;
+            margin-top: 20px;
+            border: none;
+            background-color: #49c1a2;
+            color: white;
+            font-size: 18px;
+            border-radius: 6px; /* Added border radius for consistency */
+        }
+
+        p {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 15px;
+        }
+
+        .para-2 {
+            text-align: center;
+            color: rgb(0, 0, 0);
+            font-size: 15px;
+            margin-top: 60px;
+        }
+
+        .para-2 a {
+            color: #49c1a2;
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <h1>Admin-Login</h1>
+        <form>
+            <label>admin_id</label>
+            <input type="text" placeholder="">
+            <label>admin_name</label>
+            <input type="text" placeholder="">
+            <label>admin_Role</label>
+            <input type="text" placeholder="">
+            <input type="button" value="Submit">
+        </form>
+    </div>
+    <p class="para-2">Don't have an account?<a href="signup.html"> Sign up here</a></p>
+    <!-- Corrected the 'href' attribute spelling and adjusted text -->
+</body>
+</html>
